@@ -4,7 +4,7 @@ school project of Florian Ackle, Urs Georgi, Leonardo Prpic
 # :bookmark: version
 0.1
 
-# :construction_worker: starting point:
+# :construction_worker: starting point
 In this application and transfer activity, you are to "found" a small company in a team, agree on a product agree on a product and create the company website.
 
 # :wrench: under construction
