@@ -1,0 +1,77 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html {
+    overflow: hidden;
+}
+
+header {
+    background-color: #222;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #6449b3;
+    background-color: #222;
+}
+
+.team-hover {
+    position: relative;
+}
+
+.team-hover .team-submenu {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    top: 100%;
+    left: 0;
+}
+
+.team-hover:hover .team-submenu {
+    display: block;
+}
+
+.team-submenu li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+
+.team-submenu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.team-submenu li a:hover {
+    color: #6449b3;
+}
