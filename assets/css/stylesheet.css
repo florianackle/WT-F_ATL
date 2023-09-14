@@ -88,10 +88,10 @@ nav ul li a:hover {
 .blue-banner {
     position: relative;
     top: -2rem;
-    background-color: aqua;
+    background-color: #6449b3;
     width: 80%;
     border-radius: 30px;
-    box-shadow: 10px 10px 5px #2a4344;
+    box-shadow: 10px 10px 5px #3c2d70;
     border-color: #222222;
 }
 
