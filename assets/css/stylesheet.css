@@ -13,6 +13,7 @@ html {
 }
 
 header {
+    height: 4rem;
     background-color: #222;
     padding: 5px;
 }
@@ -76,15 +77,29 @@ nav ul li a:hover {
 }
 
 .flex-container {
-    height: 100%;
+    height: calc(100vh - 4rem);
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
 }
 
-.row {
-    width: auto;
+.blue-banner {
+    position: relative;
+    top: -2rem;
+    background-color: aqua;
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #2a4344;
+    border-color: #222222;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
