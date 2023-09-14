@@ -1,4 +1,4 @@
-body {
+html body {
     background-color: #333;
     color: #fff;
     font-family: Arial, sans-serif;
@@ -32,8 +32,8 @@ nav ul li a {
     color: #fff;
     display: inline-block;
     width: 100px;
-    height: 20px;
-    line-height: 20px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
 }
 
@@ -50,7 +50,6 @@ nav ul li a:hover {
     display: none;
     position: absolute;
     background-color: #222;
-    z-index: 1;
     list-style: none;
     padding: 0;
     top: 100%;
@@ -74,4 +73,18 @@ nav ul li a:hover {
 
 .team-submenu li a:hover {
     color: #6449b3;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.row {
+    width: auto;
 }
