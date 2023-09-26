@@ -85,6 +85,15 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+.content {
+    height: 15vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .blue-banner {
     position: relative;
     top: -2rem;
