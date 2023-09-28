@@ -1,0 +1,71 @@
+#team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.team-member {
+    flex: 1;
+    max-width: calc(25% - 1rem);
+    text-align: center;
+    position: relative;
+    background-color: #6c2762;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.team-member-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transition: bottom 0.5s;
+    background-color: #6449b3;
+    color: #ffffff;
+}
+
+.team-member-info .title {
+    position: relative;
+    z-index: 2;
+}
+
+.team-member-info .description {
+    position: absolute;
+    width: 100%;
+    top: 3rem;
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s;
+    background-color: #6449b3;
+}
+
+.description-text {
+    margin-top: 2rem; /* Increased vertical space to the title */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+
+.team-member:hover .team-member-info {
+    bottom: 30%;
+}
+
+.team-member:hover .team-member-info .description {
+    top: 2rem;
+    opacity: 1;
+}
+
+#team-description {
+    padding: 2rem;
+    border-top: 0.1rem solid #ccc;
+}
+
+nav ul li:hover ul {
+    z-index: 1000;
+}
