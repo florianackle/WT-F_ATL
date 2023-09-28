@@ -46,14 +46,14 @@
 }
 
 .description-text {
-    margin-top: 2rem; /* Increased vertical space to the title */
+    margin-top: 2rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     text-align: center;
 }
 
 .team-member:hover .team-member-info {
-    bottom: 30%;
+    bottom: 25%;
 }
 
 .team-member:hover .team-member-info .description {
