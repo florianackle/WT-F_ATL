@@ -41,6 +41,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #6449b3;
     background-color: #222;
+    border-bottom: 2px solid #3c2d70;
 }
 
 .team-hover {
