@@ -2,7 +2,7 @@
 school project of Florian Ackle, Urs Georgi, Leonardo Prpic
 
 # :bookmark: version
-0.2
+v0.3 (check release-notes)
 
 # :construction_worker: starting point
 In this application and transfer activity, you are to "found" a small company in a team, agree on a product agree on a product and create the company website.
@@ -30,6 +30,6 @@ Please do not copy this code... unless you give me a :cookie:
 Otherwise... leave the fingers :point_left: of it.
 
 # :date: Last Update
-> 26.09.2023
+> 29.09.2023
 
 # :rocket: Have fun!
