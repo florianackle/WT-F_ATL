@@ -1,9 +1,14 @@
+html, body {
+    overflow-y: auto;
+    max-width: 100%;
+}
+
 #team-members {
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    gap: 1rem;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    gap: 1vw;
 }
 
 .team-member {
@@ -14,6 +19,8 @@
     background-color: #6c2762;
     border-radius: 0.5rem;
     overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .team-member img {
@@ -28,44 +35,69 @@
     bottom: 0;
     transition: bottom 0.5s;
     background-color: #6449b3;
-    color: #ffffff;
+    max-height: 75%;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.team-member-info::-webkit-scrollbar {
+    display: none;
 }
 
 .team-member-info .title {
+    order: 1;
     position: relative;
     z-index: 2;
 }
 
 .team-member-info .description {
+    order: 2;
     position: absolute;
     width: 100%;
     top: 3rem;
     opacity: 0;
     transition: opacity 0.5s, top 0.5s;
     background-color: #6449b3;
+    margin-bottom: 2vw;
 }
 
 .description-text {
-    margin-top: 2rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
     text-align: center;
 }
 
-.team-member:hover .team-member-info {
-    bottom: 25%;
-}
-
 .team-member:hover .team-member-info .description {
-    top: 2rem;
+    top: 2vw;
     opacity: 1;
 }
 
+.team-member:hover .team-member-info .title {
+    text-decoration: underline;
+}
+
 #team-description {
-    padding: 2rem;
+    padding: 2vw;
     border-top: 0.1rem solid #ccc;
 }
 
 nav ul li:hover ul {
     z-index: 1000;
+}
+
+@media (max-width: 767px) {
+    #team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 100%;
+        max-width: 80%;
+        box-sizing: border-box;
+        margin-bottom: 5vw;
+        height: auto;
+    }
 }
