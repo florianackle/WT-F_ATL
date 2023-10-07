@@ -19,7 +19,7 @@ html, body {
     background-color: #6c2762;
     border-radius: 0.5rem;
     overflow: hidden;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ html, body {
 
 #team-description {
     padding: 2vw;
-    border-top: 0.1rem solid #ccc;
+    border-top: 0.1rem solid #fff;
 }
 
 @media (max-width: 767px) {
