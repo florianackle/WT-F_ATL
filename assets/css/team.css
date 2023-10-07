@@ -83,10 +83,6 @@ html, body {
     border-top: 0.1rem solid #ccc;
 }
 
-nav ul li:hover ul {
-    z-index: 1000;
-}
-
 @media (max-width: 767px) {
     #team-members {
         flex-direction: column;
