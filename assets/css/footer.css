@@ -9,3 +9,24 @@ footer h1 {
     margin-bottom: 0;
 }
 
+img {
+    width: 10%;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-section {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+}
