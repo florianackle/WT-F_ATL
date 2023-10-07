@@ -1,0 +1,11 @@
+footer {
+    border-top: 0.1rem solid #fff;
+    width: 100%;
+    bottom: 0;
+    background-color: #6449b3;
+}
+
+footer h1 {
+    margin-bottom: 0;
+}
+
