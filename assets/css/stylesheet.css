@@ -1,7 +1,15 @@
+:root {
+    --rich-black: #171a21ff;
+    --paynes-gray: #617073ff;
+    --air-superiority-blue: #7a93acff;
+    --jordy-blue: #92bceaff;
+    --periwinkle: #afb3f7ff;
+
+    background-color: var(--paynes-gray);
+}
+
 html body {
-    background-color: #333;
     color: #fff;
-    font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -9,6 +17,7 @@ html body {
 
 html {
     overflow: auto;
+    font-family: Nunito, Arial, Helvetiva, sans-serif, sans-serif;
 }
 
 main {
@@ -41,13 +50,4 @@ main {
     border-radius: 30px;
     box-shadow: 10px 10px 5px #3c2d70;
     border-color: #222222;
-}
-
-#particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
 }
