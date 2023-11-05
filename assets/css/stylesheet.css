@@ -21,16 +21,7 @@ html {
 }
 
 main {
-    margin-top: 5rem;
-}
-
-.flex-container {
-    height: calc(100vh - 4rem);
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 6vw;
 }
 
 .content {
@@ -40,14 +31,4 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.index-banner {
-    position: relative;
-    top: -2rem;
-    background-color: #6449b3;
-    width: 80%;
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px #3c2d70;
-    border-color: #222222;
 }
