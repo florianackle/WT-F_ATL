@@ -1,7 +1,7 @@
 header {
     height: 4vw;
     background-color: var(--rich-black);
-    padding: 0.5vw;
+    padding-top: 0.5vw;
     position: fixed;
     width: 100%;
     top: 0;
