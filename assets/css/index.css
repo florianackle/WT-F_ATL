@@ -1,11 +1,3 @@
-html {
-    overflow: hidden;
-}
-
-body {
-    overflow: hidden;
-}
-
 main {
     margin-top: 4.5vw;
 }
@@ -22,13 +14,13 @@ main {
     position: relative;
     padding: 1vw 2vw;
     background-color: #6449b3;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px #3c2d70;
     border-color: #222222;
 }
 
 .index-banner a {
-    color: var(--jordy-blue);
+    color: white;
 }
 
 .start-page {
@@ -46,4 +38,14 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.info-box {
+    max-width: 80%;
+    margin: 1vw 1vw;
+    color: white;
+    background-color: #6449b3;
+    box-shadow: 5px 5px 5px #3c2d70;
+    border-radius: 10px;
+    padding: 20px;
 }
