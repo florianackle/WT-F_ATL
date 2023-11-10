@@ -14,7 +14,7 @@ product and create the company website.
 # :wrench: under construction
 
 The project is currently being worked on diligently.
-The selected product are luminous vests for chickens. chicken:
+The selected product are luminous vests for chickens. :chicken:
 
 # :art: design
 
