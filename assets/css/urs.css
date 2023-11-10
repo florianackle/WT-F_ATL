@@ -25,14 +25,14 @@ main {
     margin-top: 6vw;
 }
 
-/*.content {
+.content {
     height: 15vh;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-}*/
+}
 
 /*Navigation*/
 header {
@@ -108,7 +108,7 @@ nav ul li a:hover {
 /*Urs*/
 main {
     margin-top: 4vw;
-    background-color: rgb(230, 230, 14);
+    /*background-color: #617073ff*/;
 }
 
 h1{
@@ -119,12 +119,71 @@ h2{
     color:brown;
 }
 
+h3{
+    color: brown;
+}
+
+h4{
+    color: brown;
+    font-style: bold;
+}
+
 div{
-    background-color: #171a21ff;
+    background-color: #617073ff;
     /*position: absolute;*/
     top: 10vw;
 }
 
-/*.abschnitt1{
-    background-color: purple;
-}*/
+p {
+    font-size: 18px;
+}
+
+.abschnitt1{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+
+
+.abschnitt11 {
+    margin-left: 350px;
+}
+
+.abschnitt12 {
+    margin-right: 400px;
+    margin-left: 100px;
+}
+
+.zuBearbeiten{
+    margin-top: 50%;
+}
+
+.page-title h1{
+    margin-top: 7.5rem;
+}
+
+.abschnitt2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50%;
+}
+
+.abschnitt21 {
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+.abschnitt22 {
+    margin-right: 350px;
+}
+
+.abschnitt3 {
+    margin-top: 35%;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+
+.lastAbschnitt {
+    margin-top: 10%;
+}
