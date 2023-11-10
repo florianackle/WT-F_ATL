@@ -13,12 +13,16 @@ product and create the company website.
 
 # :wrench: under construction
 
-The project is currently being worked on diligently
+The project is currently being worked on diligently.
+The selected product are luminous vests for chickens. chicken:
 
 # :art: design
 
 The design is constantly being improved.
-Design changes which are badly or not at all possible with a frontend framework were adapted in the own CSS.
+Design changes were adapted in the own CSS.
+
+The CSS files have been divided into functions where possible (e.g. navigation.css for the navigation bar or stylesheet.css is the overlying CSS file)
+In addition, a separate CSS file was created for each page so that each group member can implement their own style ideas.
 
 # :construction: functionality
 
@@ -26,11 +30,12 @@ No special functions have been implemented yet.
 
 # :bug: bug-free
 
-The program is bug free. Only fully working versions are "committed".
+The program is bug free. Only fully working versions are "committed". Hopefully :see_no_evil:
 
 # :package: used packages
 
 The following packages were used:
+n/a
 
 # :lock: copyright
 
@@ -40,6 +45,6 @@ Otherwise... leave the fingers :point_left: of it.
 
 # :date: Last Update
 
-> 05.11.2023
+> 10.11.2023
 
 # :rocket: Have fun!
