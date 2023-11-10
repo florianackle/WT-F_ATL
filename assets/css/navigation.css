@@ -6,26 +6,31 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 30px;
-    line-height: 30px;
 }
 
 nav ul li a:hover {
