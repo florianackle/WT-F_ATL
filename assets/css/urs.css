@@ -42,7 +42,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;*/
+    z-index: 1000;
 }
 
 nav ul {
@@ -111,24 +111,23 @@ main {
     /*background-color: #617073ff*/;
 }
 
-h1{
-    color:rgb(230, 14, 14);
+h1 {
+    color: rgb(230, 14, 14);
 }
 
-h2{
-    color:brown;
-}
-
-h3{
+h2 {
     color: brown;
 }
 
-h4{
+h3 {
     color: brown;
-    font-style: bold;
 }
 
-div{
+strong {
+    color: brown;
+}
+
+div {
     background-color: #617073ff;
     /*position: absolute;*/
     top: 10vw;
@@ -138,7 +137,7 @@ p {
     font-size: 18px;
 }
 
-.abschnitt1{
+.abschnitt1 {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
@@ -155,15 +154,15 @@ p {
     margin-left: 100px;
 }
 
-.zuBearbeiten{
+.zuBearbeiten {
     margin-top: 50%;
 }
 
-.page-title h1{
+.page-title h1 {
     margin-top: 7.5rem;
 }
 
-.abschnitt2{
+.abschnitt2 {
     display: inline-block;
     vertical-align: middle;
     margin-top: 50%;
@@ -185,5 +184,5 @@ p {
 }
 
 .lastAbschnitt {
-    margin-top: 10%;
+    margin: 10% auto 5% auto;
 }
