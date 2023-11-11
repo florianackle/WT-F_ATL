@@ -1,0 +1,61 @@
+/* Grundlegende Stile, die für Huge gelten */
+
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; /* Zentriert den Container */
+    padding: 20px;
+    background-color: #0000ff;
+    box-sizing: border-box;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    border: 1px solid #ddd;
+    justify-content: space-between;
+}
+
+.inner-container {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    margin: 5px;
+    min-height: 600px; /* Standardhöhe für Huge */
+    min-width: 30%; /* Minimale Breite für die inneren Container */
+}
+
+#container1 { background-color: #00ff00; }
+#container2 { background-color: #ffff00; }
+#container3 { background-color: #ff0000; }
+
+/* Media Queries */
+
+/* Desktop */
+@media only screen and (max-width: 1289px) {
+    .inner-container {
+        /* Anpassungen für Desktop */
+        min-height: calc(600px * 0.77); /* 77% von 600px */
+        min-width: auto; /* Setzt die minimale Breite zurück */
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 991px) {
+    .inner-container {
+        /* Anpassungen für Tablet */
+        min-height: calc(600px * 0.60); /* 60% von 600px */
+        flex-basis: 100%; /* Jeder innere Container nimmt die volle Breite ein */
+    }
+}
+
+/* Mobil */
+@media only screen and (max-width: 767px) {
+    .inner-container {
+        /* Anpassungen für Mobilgeräte */
+        min-height: calc(600px * 0.37); /* 37% von 600px */
+        margin-bottom: 10px; /* Etwas Abstand nach unten für bessere Lesbarkeit */
+    }
+}
