@@ -2,7 +2,7 @@
 main {
     margin-top: 4vw;
     /*background-color: #617073ff*/;
-}
+ }
 
 h1 {
     color: rgb(230, 14, 14);
@@ -78,4 +78,15 @@ p {
 
 .lastAbschnitt {
     margin: 10% auto 5% auto;
+}
+
+/*.main-container {
+    max-width: 1200px; /* Maximale Breite von 800px */
+    width: 100%;
+    min-height: 100%;
+    margin-left: auto; /* Zentriert den Container von links */
+    margin-right: auto; /* Zentriert den Container von rechts */
+    padding: 20px;
+    background-color: #0000ff;
+    box-sizing: border-box;
 }
