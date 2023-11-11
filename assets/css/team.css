@@ -16,7 +16,7 @@ html, body {
     max-width: calc(25% - 1rem);
     text-align: center;
     position: relative;
-    background-color: #6c2762;
+    background-color: var(--air-superiority-blue);
     border-radius: 0.5rem;
     overflow: hidden;
     color: #fff;
