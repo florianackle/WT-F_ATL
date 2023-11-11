@@ -27,9 +27,31 @@
     min-width: 30%; /* Minimale Breite für die inneren Container */
 }
 
+.nested-container {
+    width: 100%; /* Nutzt den gesamten verfügbaren Platz in der Breite */
+    box-sizing: border-box; /* Stellt sicher, dass Padding und Border in der Breite enthalten sind */
+    padding: 10px; /* Optional, für etwas Innenabstand */
+    border: 1px solid #ccc; /* Optional, für eine visuelle Trennung */
+}
+
 #container1 { background-color: #00ff00; }
 #container2 { background-color: #ffff00; }
 #container3 { background-color: #ff0000; }
+#container4 { background-color: #ff00ff; }
+#container5 { background-color: #00ffff; }
+
+
+#container3-1 .nested-container:first-child,
+#container3-2 .nested-container:first-child,
+#container3-3 .nested-container:first-child {
+    height: 25%; /* Der erste innere Container nimmt 25% der Höhe ein */
+}
+
+#container3-1 .nested-container:last-child,
+#container3-2 .nested-container:last-child,
+#container3-3 .nested-container:last-child {
+    height: 75%; /* Der zweite innere Container nimmt 75% der Höhe ein */
+}
 
 /* Media Queries */
 
