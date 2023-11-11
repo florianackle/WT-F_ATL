@@ -1,5 +1,6 @@
 header {
     height: 4vw;
+    max-height: 4vw;
     background-color: var(--rich-black);
     padding-top: 0.5vw;
     position: fixed;
