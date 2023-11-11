@@ -1,36 +1,41 @@
 header {
-    height: 4rem;
-    background-color: #222;
-    padding: 5px;
+    height: 4vw;
+    background-color: var(--rich-black);
+    padding-top: 0.5vw;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 30px;
-    line-height: 30px;
 }
 
 nav ul li a:hover {
     color: #6449b3;
-    background-color: #222;
+    background-color: var(--rich-black);
     border-bottom: 2px solid #3c2d70;
 }
 
@@ -41,7 +46,7 @@ nav ul li a:hover {
 .team-hover .team-submenu {
     display: none;
     position: absolute;
-    background-color: #222;
+    background-color: var(--rich-black);
     list-style: none;
     padding: 0;
     top: 100%;

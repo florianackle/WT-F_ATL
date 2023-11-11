@@ -1,0 +1,81 @@
+/*Urs*/
+main {
+    margin-top: 4vw;
+    /*background-color: #617073ff*/;
+}
+
+h1 {
+    color: rgb(230, 14, 14);
+}
+
+h2 {
+    color: brown;
+}
+
+h3 {
+    color: brown;
+}
+
+strong {
+    color: brown;
+}
+
+div {
+    background-color: #617073ff;
+    /*position: absolute;*/
+    top: 10vw;
+}
+
+p {
+    font-size: 18px;
+}
+
+.abschnitt1 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    margin-top: 20%;
+}
+
+
+.abschnitt11 {
+    margin-left: 350px;
+}
+
+.abschnitt12 {
+    margin-right: 400px;
+    margin-left: 100px;
+}
+
+.zuBearbeiten {
+    margin-top: 50%;
+}
+
+.page-title h1 {
+    margin-top: 7.5rem;
+}
+
+.abschnitt2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50%;
+}
+
+.abschnitt21 {
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+.abschnitt22 {
+    margin-right: 350px;
+}
+
+.abschnitt3 {
+    margin-top: 35%;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+
+.lastAbschnitt {
+    margin: 10% auto 5% auto;
+}
