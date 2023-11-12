@@ -120,22 +120,43 @@
             Treten Sie unserer Mission bei und erleben Sie, wie Technologie und Empathie Hand in Hand gehen, um eine bessere Welt für unsere gefiederten Freunde zu schaffen.
         </p>
         <div class="lastAbschnitt">
-        <h3>
+        <h2>
             Nachricht an Urs schicken
-        </h3>
+        </h2>
         
-        <form action="mailto:urs.redneck@gmail.com" method="post">
-            <input type="text" name="name" value="Name und Vorname" maxlength="100">
-           <br>
-           <br>
-            <input type="email" name="emailadresse" value="Emailadresse" maxlength="100">
-           <br>
-           <br>
-            <textarea name="kommentar" cols="35" rows="10"> Schicken Sie Urs eine Nachricht</textarea>
-            <br>
-            <input type="submit" value="senden"/>
-            <input type="reset" value="Löschen"/>
-        </form>
+     <form action="mailto:urs.redneck@gmail.com" method="post">
+
+            <label for="anrede">Anrede</label>
+	    <br>
+		    <select name="anrede" id="anrede">                
+		        <option value="herr">Herr</option>
+		        <option value="frau">Frau</option>
+		        <option value="keine anrede">Keine Anrede</option>
+		    </select>
+        
+        <br><br>
+	        <label for="vorname">Vorname</label>
+	    <br>
+	        <input type="text" name="vorname" id="vorname" value="" placeholder="Vorname" required>
+
+	    <br><br>
+	        <label for="nachname">Nachname</label>
+	    <br>
+	        <input type="text" name="nachname" id="nachname" value="" placeholder="Name" required>
+
+	    <br><br>           
+            <label for="emailadress">Emailadresse</label>
+        <br>
+            <input type="email" name="emailadresse" maxlength="100" placeholder="Email" required>
+
+        <br><br>
+            <label for="nachricht">Ihre Nachricht</label>
+        <br>
+            <textarea id="nachricht" name="nachricht" cols="65" rows="10" placeholder="Bitte Nachricht eingeben" required></textarea>            
+        <br>
+             <input type="submit" value="senden"/>
+             <input type="reset" value="Löschen"/>
+    </form>
     </div>
     
         <strong>
@@ -150,7 +171,9 @@
         </strong>
 
         <h1>
-            Chicken West for Chicken Breast - Wo Technik auf Tierliebe trifft, für eine sichere und strahlende Zukunft Ihrer Hühner.
+            Chicken West for Chicken Breast
+            <br>
+            Wo Technik auf Tierliebe trifft- für eine sichere und strahlende Zukunft Ihrer Hühner.
         </h1>
     </div>
     </div>
