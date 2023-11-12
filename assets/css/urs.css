@@ -46,6 +46,7 @@ p {
 }
 
 .abschnitt1 {
+    max-width: 1200px;
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: middle;
@@ -54,10 +55,12 @@ p {
 
 
 .abschnitt11 {
+    max-width: 1200px;
     margin-left: 350px;
 }
 
 .abschnitt12 {
+    max-width: 1200px;
     margin-right: 400px;
     margin-left: 100px;
 }
@@ -71,26 +74,33 @@ p {
 }
 
 .abschnitt2 {
+    max-width: 1200px;
     display: inline-block;
     vertical-align: middle;
     margin-top: 50%;
 }
 
 .abschnitt21 {
+    max-width: 1200px;
     margin-left: 400px;
     margin-right: 100px;
 }
 
 .abschnitt22 {
+    max-width: 1200px;
     margin-right: 350px;
 }
 
 .abschnitt3 {
+    max-width: 1200px;
+    display: inline-block;
+    vertical-align: middle;
     margin-top: 35%;
     margin-left: 340px;
     margin-right: 340px;
 }
 
 .lastAbschnitt {
+    max-width: 1200px;
     margin: 10% auto 5% auto;
 }
