@@ -1,7 +1,6 @@
-/*Urs*/
+/* Allgemeine Styles für alle Bildschirmgrößen */
 main {
     margin-top: 4vw;
-    /*background-color: #617073ff*/;
 }
 
 h1 {
@@ -15,12 +14,6 @@ h2 {
     font-size: 1.75em; /*28px/16=1.75em*/
     font-family: "Luminari", "Times New Roman", sans-serif;
 }
-
-/*h3 {
-    color: black;
-    font-size: 1.75em; /*28px/16=1.75em*/
-    /*font-family: "Luminari", "Times New Roman", sans-serif;
-}*/
 
 label {
     color: white;
@@ -36,7 +29,6 @@ strong {
 
 div {
     background-color: #617073ff;
-    /*position: absolute;*/
     top: 10vw;
 }
 
@@ -44,6 +36,8 @@ p {
     font-family: "American Typewriter", "Times New Roman", sans-serif;
     font-size: 18px;
 }
+
+/*Standardeinstellungen*/
 
 .abschnitt1 {
     max-width: 1200px;
@@ -63,10 +57,6 @@ p {
     max-width: 1200px;
     margin-right: 400px;
     margin-left: 100px;
-}
-
-.zuBearbeiten {
-    margin-top: 50%;
 }
 
 .page-title h1 {
@@ -103,4 +93,61 @@ p {
 .lastAbschnitt {
     max-width: 1200px;
     margin: 10% auto 5% auto;
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+}
+
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Media Queries für Widescreen-Größen (Bildschirmbreite ab 1200px) */
+@media (min-width: 1200px) {
+
+   main {
+        margin-top: 5vw;
+    }
+    
+    /*.abschnitt1 {
+        margin-top: 7%;
+    }
+
+       .abschnitt2 {
+        margin-top: 22%;
+    }
+
+    .abschnitt3 {
+        margin-top: 18%;
+    }*/
+}
+
+/* Media Queries für Tablet-Größen (Bildschirmbreite bis 768px) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media Queries für Smartphone-Größen (Bildschirmbreite bis 480px) */
+@media only screen and (max-width: 480px) {
+
+/*.abschnitt1 {
+    display: none;
+    margin-top: 20%;
+}
+
+
+.abschnitt2 {
+    display: none;
+    margin-top: 50%;
+}*/
+
 }
