@@ -4,9 +4,43 @@ main {
     padding: 20px;
 }
 
-@media (max-width: 768px) {
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; /* Zentriert den Container */
+    padding: 2vw;
+    box-sizing: border-box;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-container {
+    flex: 1;
+    box-sizing: border-box;
+    min-width: 30%; /* Minimale Breite für die inneren Container */
+    margin: 0.5vw;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
     main {
         max-width: 100%;
         padding: 10px;
     }
+}
+
+/* Custom Styles for Images on Product Page */
+.product-image {
+    width: 80%; /* Adjust the width as needed */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.product-image:hover {
+    transform: scaleX(-1); /* Mirror effect on hover */
 }
