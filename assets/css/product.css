@@ -36,14 +36,12 @@ main {
 }
 
 .hero-section {
-    background-image: url('assets/img/blue-Chicken100.png');
-    background-size: cover;
     text-align: center;
     padding: 0;
 }
 
 .feature-icon {
-    width: 50px; /* Adjust as needed */
+    width: 5vw;
     height: auto;
 }
 
