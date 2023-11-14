@@ -8,7 +8,6 @@ main {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto; /* Zentriert den Container */
-    padding: 2vw;
     box-sizing: border-box;
 }
 
@@ -48,10 +47,19 @@ main {
     height: auto;
 }
 
+.testimonials-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
 .testimonial {
+    flex-basis: 45%;
+    margin: 1vw auto;
     border: 1px solid #ddd;
-    padding: 15px;
-    margin: 15px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: var(--jordy-blue);
 }
 
@@ -78,6 +86,10 @@ main {
 
     .sub-container, .inner-container {
         flex-direction: column;
+    }
+
+    .testimonial {
+        flex-basis: 100%;
     }
 }
 
