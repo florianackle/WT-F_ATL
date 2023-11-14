@@ -69,7 +69,8 @@ main {
 
 /* Media Queries */
 
-@media (max-width: 767px) {
+/* Mobil */
+@media only screen and (max-width: 767px) {
     main {
         max-width: 100%;
         padding: 10px;
@@ -77,6 +78,41 @@ main {
 
     .sub-container, .inner-container {
         flex-direction: column;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 991px) {
+    .main-container {
+        max-width: 90%;
+        padding: 4vw;
+    }
+
+    .sub-container {
+        flex-direction: row;
+    }
+
+    .testimonial {
+        margin: 1vw;
+        padding: 2vw;
+    }
+
+}
+
+/* Desktop */
+@media only screen and (max-width: 1289px) {
+    .main-container {
+        max-width: 80%;
+        padding: 2vw;
+    }
+
+    .sub-container {
+        justify-content: space-around;
+    }
+
+    .testimonial {
+        margin: 1vw;
+        padding: 1vw;
     }
 }
 
