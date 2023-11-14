@@ -1,6 +1,11 @@
 /* Allgemeine Styles für alle Bildschirmgrössen */
 main {
     margin-top: 4vw;
+    background-image: linear-gradient(
+        to bottom, 
+        #617073ff,	
+        #584141,     
+        #617073ff); 
 }
 
 h1 {
@@ -28,7 +33,7 @@ strong {
 }
 
 div {
-    background-color: #617073ff;
+    /*background-color: #617073ff;*/ 
     top: 10vw;
 }
 
@@ -92,6 +97,7 @@ p {
 .lastAbschnitt {
     max-width: 1200px;
     margin: 10% auto 5% auto;
+    margin-bottom: 5%;
 }
 
 .responsive-video {
@@ -99,6 +105,7 @@ p {
     padding-bottom: 56.25%;
     padding-top: 0px;
     height: 0;
+    margin-bottom: 40%;
 }
 
 .responsive-video iframe {
