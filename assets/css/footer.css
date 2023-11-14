@@ -9,6 +9,10 @@ footer h1 {
     margin-bottom: 0;
 }
 
+footer .footer-title h2 {
+    color: #fff;
+}
+
 .section-title img {
     width: 2vw;
     height: auto;
@@ -26,10 +30,13 @@ footer h1 {
 }
 
 .footer-section {
-    background-color: green;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer-section a {
+    color: var(--jordy-blue);
 }
 
 .section-title {
