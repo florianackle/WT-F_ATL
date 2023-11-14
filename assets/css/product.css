@@ -72,6 +72,19 @@ main {
     cursor: pointer;
 }
 
+.product-features {
+    list-style: none; /* entfernt default bullet points */
+    padding: 0;
+    margin: 20px 0;
+}
+
+.product-features li {
+    background: url('assets/img/bullet-chicken.png') no-repeat left center; /* custom bullet point icon */
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
 
 /* Media Queries */
 
@@ -88,6 +101,10 @@ main {
 
     .testimonial {
         flex-basis: 100%;
+    }
+
+    .product-features li {
+        font-size: 14px;
     }
 }
 
