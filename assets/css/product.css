@@ -73,16 +73,23 @@ main {
 }
 
 .product-features {
-    list-style: none; /* entfernt default bullet points */
+    list-style: none; /* Entfernt Standard-Bullet-Points */
     padding: 0;
     margin: 20px 0;
 }
 
 .product-features li {
-    background: url('assets/img/bullet-chicken.png') no-repeat left center; /* custom bullet point icon */
-    padding-left: 30px;
+    padding-left: 24px; /* Stellt Platz für das Emoji bereit */
+    position: relative;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 16px; /* Passen Sie die Schriftgröße nach Bedarf an */
+}
+
+.product-features li:before {
+    content: '🐔'; /* Hühner-Emoji als Bullet-Point */
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 
