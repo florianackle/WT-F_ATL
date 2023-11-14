@@ -62,7 +62,7 @@ main {
 }
 
 .cta-button {
-    background-color: #007bff;
+    background-color: var(--jordy-blue);
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -75,14 +75,15 @@ main {
 .product-features {
     list-style: none; /* Entfernt Standard-Bullet-Points */
     padding: 0;
-    margin: 20px 0;
+    margin: 2vw 0;
+    text-align: left; /* Macht den Text linksbündig */
 }
 
 .product-features li {
-    padding-left: 24px; /* Stellt Platz für das Emoji bereit */
+    padding-left: 2vw; /* Stellt Platz für das Emoji bereit */
     position: relative;
-    margin-bottom: 10px;
-    font-size: 16px; /* Passen Sie die Schriftgröße nach Bedarf an */
+    margin-bottom: 1vw;
+    font-size: 16px; /* Passen Sie die Schriftgrösse nach Bedarf an */
 }
 
 .product-features li:before {
@@ -111,7 +112,7 @@ main {
     }
 
     .product-features li {
-        font-size: 14px;
+        font-size: 14px; /* Etwas kleinere Schrift für kleinere Bildschirme */
     }
 }
 
