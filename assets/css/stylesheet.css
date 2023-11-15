@@ -18,6 +18,7 @@ html body {
 html {
     overflow: auto;
     font-family: 'Poppins', Arial, Helvetiva, sans-serif;
+!important;
 }
 
 main {
