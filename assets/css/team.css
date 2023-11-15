@@ -3,6 +3,7 @@
 }
 
 main {
+    max-width: 90%;
     margin: 6vw auto;
     padding: 20px;
     background: rgb(182, 58, 165);
@@ -123,6 +124,10 @@ html, body {
 }
 
 @media (max-width: 767px) {
+    main {
+        max-width: 100%;
+    }
+
     #team-members {
         flex-direction: column;
         align-items: center;
