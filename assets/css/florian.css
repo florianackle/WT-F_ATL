@@ -39,6 +39,29 @@ a {
     margin: 2vw auto;
 }
 
+/* Content und Bild styling */
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section-img, .about-florian {
+    flex: 1;
+    padding: 1vw;
+}
+
+.content-row .section-img {
+    max-width: 20%;
+}
+
+/* Styling vom iFrame */
+.section-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* Styling vom Kontaktformular */
 
 .form-group {
@@ -47,7 +70,7 @@ a {
 
 .form-group label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 2vw;
 }
 
 .form-group input[type="text"],
@@ -100,4 +123,15 @@ button[type="submit"]:hover {
 /* Mobil */
 @media only screen and (max-width: 767px) {
     /* Anpassungen für mobile Ansichten */
+    .content-row {
+        flex-direction: column;
+    }
+
+    .content-row .section-img {
+        max-width: 100%;
+    }
+
+    .contact-text {
+        max-width: 80%;
+    }
 }
