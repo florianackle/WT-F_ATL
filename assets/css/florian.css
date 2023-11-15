@@ -46,9 +46,6 @@ a {
     align-items: flex-start;
 }
 
-.about-section .section-img {
-    max-height: 100%;
-}
 
 .section-img, .about-text {
     flex: 1;
@@ -56,7 +53,7 @@ a {
 }
 
 .content-row .section-img {
-    max-width: 20%;
+    max-width: 25%;
 }
 
 /* Zukunftsprojekte */
