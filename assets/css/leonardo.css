@@ -3,6 +3,7 @@
     background-color: rgb(108, 39, 98);
 }
 
+/* Typen */
 main {
     max-width: 75%;
     margin: 6vw auto;
@@ -11,22 +12,22 @@ main {
     background: linear-gradient(45deg, rgb(80, 21, 71) 0%, rgb(155, 53, 140) 100%);
     border-radius: 1vw;
 }
-
 body {
     line-height: 1.6;
 }
-
 h1, h2, h3 {
     margin-bottom: 10px;
 }
 
+
+
+/* Classen */
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
 }
-
 .sub-container {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +35,6 @@ h1, h2, h3 {
     border: 1px solid #ddd;
     justify-content: space-between;
 }
-
 .inner-container {
     flex: 1;
     padding: 10px;
@@ -43,25 +43,44 @@ h1, h2, h3 {
     min-height: 600px;
     min-width: 30%;
 }
-
 .nested-container {
     padding: 10px;
 }
 
+
+
+/* Container 1 */
+#container1 {
+    background-color: #00ff00;
+}
+#container1-1 picture img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#container1-1 picture img {
+    max-width: 100%;
+    height: auto;
+}
+#container1-1, #container1-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Text links ausrichten */
+    justify-content: center; /* In der Höhe zentrieren */
+    text-align: left; /* Text links ausrichten */
+}
 #container1-2 h2 {
     font-size: 35px;
     font-weight: bold;
     margin: 10px 0;
     text-align: left;
 }
-
 #container1-2 h3 {
     font-size: 24px;
     font-weight: bold;
     margin: 5px 0;
     text-align: left;
 }
-
 #container1-2 .slogan {
     font-size: 20px;
     font-style: italic;
@@ -70,6 +89,12 @@ h1, h2, h3 {
     text-align: left;
 }
 
+
+
+/* Container 2 */
+#container2 {
+    background-color: #ffff00;
+}
 #container2-1 {
     display: flex;
     flex-direction: column;
@@ -78,66 +103,22 @@ h1, h2, h3 {
     text-align: center;
 }
 
-#container1 {
-    background-color: #00ff00;
-}
 
-#container2 {
-    background-color: #ffff00;
-}
 
+/* Container 3 */
 #container3 {
     background-color: #ff0000;
 }
-
-#container4 {
-    background-color: #ff00ff;
-}
-
-#container5 {
-    background-color: #00ffff;
-}
-
 #container3-1 .nested-container:first-child,
 #container3-2 .nested-container:first-child,
 #container3-3 .nested-container:first-child {
     height: 25%;
 }
-
 #container3-1 .nested-container:last-child,
 #container3-2 .nested-container:last-child,
 #container3-3 .nested-container:last-child {
     height: 75%;
 }
-
-#container1-1 img {
-    width: 100%;
-    height: auto;
-}
-
-
-#container1-1, #container1-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Text links ausrichten */
-    justify-content: center; /* In der Höhe zentrieren */
-    text-align: left; /* Text links ausrichten */
-}
-
-#container1-1 img, #container1-2 img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px; /* Abstand zwischen Bild und Text hinzufügen */
-}
-
-#container1-1 h2, #container1-2 h2 {
-    font-size: 35px;
-    font-weight: bold;
-    margin: 0; /* Den Standardabstand entfernen */
-    text-align: left; /* Text links ausrichten */
-}
-
-
 .image-container img {
     max-width: 100%;
     max-height: 100%;
@@ -146,7 +127,6 @@ h1, h2, h3 {
     display: block;
     margin: auto;
 }
-
 .image-container {
     text-align: center;
     display: flex;
@@ -154,7 +134,6 @@ h1, h2, h3 {
     justify-content: center;
     overflow: hidden;
 }
-
 #container3-1b, #container3-2b, #container3-3b {
     display: flex;
     flex-direction: column;
@@ -163,21 +142,24 @@ h1, h2, h3 {
     text-align: center;
 }
 
+
+
+/* Container 4 */
+#container4 {
+    background-color: #ff00ff;
+}
 #contact-form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
 }
-
 .form-group {
     margin-bottom: 15px;
 }
-
 .form-group label {
     display: block;
     margin-bottom: 5px;
 }
-
 .form-group input[type="email"],
 .form-group input[type="tel"],
 .form-group textarea {
@@ -186,19 +168,11 @@ h1, h2, h3 {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-#message {
-    height: 150px;
-    resize: none;
-    overflow: auto;
-}
-
 .phone-input {
     display: flex;
     align-items: center;
     width: 100%;
 }
-
 .phone-input select {
     flex: 0 0 90px;
     margin-right: 10px;
@@ -208,24 +182,25 @@ h1, h2, h3 {
     background-color: white;
     cursor: pointer;
 }
-
 .phone-input input[type="tel"] {
     flex-grow: 1;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
+#message {
+    height: 150px;
+    resize: none;
+    overflow: auto;
+}
 .form-group.checkbox-group {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
-
 .form-group.checkbox-group input[type="checkbox"] {
     margin-right: 10px;
 }
-
 #submit-button {
     background-color: #aaa;
     color: white;
@@ -234,11 +209,16 @@ h1, h2, h3 {
     border-radius: 4px;
     cursor: pointer;
 }
-
 #submit-button:enabled {
     background-color: #4CAF50;
 }
 
+
+
+/* Container 5 */
+#container5 {
+    background-color: #00ffff;
+}
 #container5-1 {
     display: flex;
     align-items: center;
@@ -246,24 +226,20 @@ h1, h2, h3 {
     height: 100%;
     padding: 20px;
 }
-
 #container5-1 .content {
     max-width: 600px;
 }
-
 #container5-2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .video-container {
     overflow: hidden;
     padding-top: 56.25%;
     position: relative;
     width: 100%;
 }
-
 .video-container iframe {
     position: absolute;
     top: 0;
@@ -272,13 +248,15 @@ h1, h2, h3 {
     height: 100%;
 }
 
+
+
+
 /* Media Queries */
 @media only screen and (max-width: 1289px) {
     .inner-container {
         min-height: calc(600px * 0.77);
     }
 }
-
 @media only screen and (max-width: 991px) {
 
 
@@ -287,7 +265,6 @@ h1, h2, h3 {
         flex-basis: 100%;
     }
 }
-
 @media only screen and (max-width: 767px) {
     body {
         font-size: 14px;
