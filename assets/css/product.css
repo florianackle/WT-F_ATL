@@ -11,6 +11,10 @@ main {
     border-radius: 1vw;
 }
 
+a {
+    color: var(--jordy-blue); /* Links besser sichtbar */
+}
+
 .main-container {
     max-width: 1200px;
     width: 100%;
