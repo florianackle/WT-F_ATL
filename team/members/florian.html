@@ -69,26 +69,27 @@
             </div>
             <section class="contact sub-section">
                 <h2>Kontakt</h2>
-                <p class="contact-text">Möchten Sie mehr über Florians Arbeit erfahren oder haben Sie ein Projekt, bei dem Florian Ihnen
+                <p class="contact-text">Möchten Sie mehr über Florians Arbeit erfahren oder haben Sie ein Projekt, bei
+                    dem Florian Ihnen
                     helfen könnte? Kontaktieren Sie ihn gerne!</p>
-                <form id="contact-form" action="mailto:florian@chicken-breast.ch" method="post" enctype="text/plain">
+                <form action="mailto:florian@chicken-breast.ch" enctype="text/plain" id="contact-form" method="post">
                     <div class="form-row">
                         <div class="form-group">
                             <label for="lastName">Name</label>
-                            <input type="text" id="lastName" name="lastName" required>
+                            <input id="lastName" name="lastName" required type="text">
                         </div>
                         <div class="form-group">
                             <label for="firstName">Vorname</label>
-                            <input type="text" id="firstName" name="firstName" required>
+                            <input id="firstName" name="firstName" required type="text">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="email">E-Mail Adresse</label>
-                        <input type="email" id="email" name="email" required>
+                        <input id="email" name="email" required type="email">
                     </div>
                     <div class="form-group">
                         <label for="subject">Betreff</label>
-                        <input type="text" id="subject" name="subject" required>
+                        <input id="subject" name="subject" required type="text">
                     </div>
                     <div class="form-group">
                         <label for="description">Beschreibung</label>
@@ -96,7 +97,6 @@
                     </div>
                     <button type="submit">Senden</button>
                 </form>
-            </section>
             </section>
 
             <div class="section-video">
