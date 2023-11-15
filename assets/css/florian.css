@@ -55,6 +55,24 @@ a {
     max-width: 20%;
 }
 
+/* Zukunftsprojekte */
+#future-projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5vw;
+}
+
+.future-img img {
+    width: 10vw;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Bilder quadratisch */
+}
+
 /* Styling vom iFrame */
 .section-video {
     display: flex;
@@ -65,7 +83,7 @@ a {
 /* Styling vom Kontaktformular */
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 2vw;
 }
 
 .form-group label {
@@ -79,7 +97,7 @@ a {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 1vw;
 }
 
 .form-row {
@@ -92,15 +110,15 @@ a {
 }
 
 textarea {
-    height: 100px;
+    height: 10vw;
 }
 
 button[type="submit"] {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 15px;
+    padding: 2vw 3vw;
     border: none;
-    border-radius: 4px;
+    border-radius: 1vw;
     cursor: pointer;
 }
 
@@ -133,5 +151,18 @@ button[type="submit"]:hover {
 
     .contact-text {
         max-width: 80%;
+    }
+
+    #future-projects {
+        flex-direction: column; /* Untereinander anzeigen */
+    }
+
+    .future-img {
+        grid-template-columns: 1fr; /* Eine Spalte für die Bilder */
+        margin: 0 auto; /* Zentrieren */
+    }
+
+    .future-img img {
+        width: 100%; /* Grösser erlauben (da Bilder nacheinander)*/
     }
 }
