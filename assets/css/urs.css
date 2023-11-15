@@ -1,15 +1,20 @@
 /* Allgemeine Styles für alle Bildschirmgrössen */
 
-* {
-    box-sizing: border-box;
-}
-
-main {
+:root {
     background-image: linear-gradient(
             to bottom,
             #617073ff,
             #584141,
             #617073ff);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 h1 {
