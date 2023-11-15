@@ -62,4 +62,13 @@ footer .footer-title h2 {
         margin-bottom: 5vw;
         height: auto;
     }
+
+    .section-title img {
+        width: 5vw;
+    }
+
+    .section-title p {
+        font-size: 2em;
+    }
+
 }
