@@ -21,8 +21,10 @@ The selected product are luminous vests for chickens. :chicken:
 The design is constantly being improved.
 Design changes were adapted in the own CSS.
 
-The CSS files have been divided into functions where possible (e.g. navigation.css for the navigation bar or stylesheet.css is the overlying CSS file)
-In addition, a separate CSS file was created for each page so that each group member can implement their own style ideas.
+The CSS files have been divided into functions where possible (e.g. navigation.css for the navigation bar or
+stylesheet.css is the overlying CSS file)
+In addition, a separate CSS file was created for each page so that each group member can implement their own style
+ideas.
 
 # :construction: functionality
 
@@ -45,6 +47,6 @@ Otherwise... leave the fingers :point_left: of it.
 
 # :date: Last Update
 
-> 10.11.2023
+> 15.11.2023
 
 # :rocket: Have fun!
