@@ -65,11 +65,11 @@ main {
     border: 1px solid #ddd;
     border-radius: 1vw;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: var(--jordy-blue);
+    background-color: rgb(215, 168, 0);
 }
 
 .cta-button {
-    background-color: var(--jordy-blue);
+    background-color: rgb(215, 168, 0);
     color: white;
     padding: 1vw 2vw;
     text-align: center;
