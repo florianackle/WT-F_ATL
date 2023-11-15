@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Florian</title>
     <link href="../../assets/img/favicon.ico" rel="icon" type="image/x-icon">
     <link href="../../assets/css/stylesheet.css" rel="stylesheet">
@@ -44,22 +45,60 @@
 </header>
 <main>
     <div class="main-container">
-        <div class="main-section">
+        <div class="intro">
             <h1>Wer bin ich?</h1>
             <h2>Hallo ich bin Florian - Mitgründer von Chicken-West for Chicken-Breast</h2>
         </div>
         <div class="sub-section">
             <div class="section-img">
-
+                <img alt="Florian" src="../../assets/img/Hillbilly3-100.png">
             </div>
-            <div class="section-description">
-
+            <div class="about-florian">
+                <h2>Über Florian</h2>
+                <p>Florian hat sein Studium im Bereich Grafikdesign an der renommierten Kunstuniversität in Berlin
+                    abgeschlossen. Seine Leidenschaft für Farben, Formen und innovative Designkonzepte hat ihn schnell
+                    in der Branche bekannt gemacht. Er hat bereits mit mehreren grossen Marken zusammengearbeitet und
+                    beeindruckt stets durch seine einzigartige Herangehensweise an jedes Projekt.</p>
             </div>
         </div>
         <div class="sub-section">
-            <div class="section-description">
-
+            <div class="portfolio-florian">
+                <h2>Portfolio</h2>
+                <p>Florians beeindruckende Arbeiten finden sich unter:</p>
+                <a href="https://github.com/florianackle" target="_blank">Github - Florian Ackle</a>
             </div>
+            <section class="contact sub-section">
+                <h2>Kontakt</h2>
+                <p class="contact-text">Möchten Sie mehr über Florians Arbeit erfahren oder haben Sie ein Projekt, bei dem Florian Ihnen
+                    helfen könnte? Kontaktieren Sie ihn gerne!</p>
+                <form id="contact-form" action="mailto:florian@chicken-breast.ch" method="post" enctype="text/plain">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="lastName">Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName">Vorname</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail Adresse</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Betreff</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Beschreibung</label>
+                        <textarea id="description" name="description" required></textarea>
+                    </div>
+                    <button type="submit">Senden</button>
+                </form>
+            </section>
+            </section>
+
             <div class="section-video">
 
             </div>

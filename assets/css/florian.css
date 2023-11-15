@@ -1,12 +1,103 @@
+/* Grundlegende Stile */
+
 :root {
     background-color: rgb(108, 39, 98);
 }
 
 main {
-    max-width: 70%;
+    max-width: 60%;
     margin: 6vw auto;
-    padding: 20px;
+    padding: 2vw;
     background: rgb(182, 58, 165);
     background: linear-gradient(45deg, rgb(80, 21, 71) 0%, rgb(155, 53, 140) 100%);
     border-radius: 1vw;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--jordy-blue); /* Links besser sichtbar */
+}
+
+.sub-section {
+    border-top: 0.1rem solid #fff;
+    margin: 2vw auto;
+}
+
+.section-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-text {
+    max-width: 40%;
+    margin: 2vw auto;
+}
+
+/* Styling vom Kontaktformular */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    flex-basis: 48%; /* Passt die Breite der zwei Spalten an */
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* Responsive Design */
+/* Desktop */
+@media only screen and (max-width: 1289px) {
+    /* Anpassungen für Desktop-Ansichten */
+}
+
+/* Tablet */
+@media only screen and (max-width: 991px) {
+    /* Anpassungen für Tablet-Ansichten */
+}
+
+/* Mobil */
+@media only screen and (max-width: 767px) {
+    /* Anpassungen für mobile Ansichten */
 }
