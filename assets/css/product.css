@@ -52,7 +52,7 @@ a {
 }
 
 .feature-icon {
-    width: 5vw;
+    width: 3vw;
     height: auto;
 }
 
@@ -79,13 +79,16 @@ a {
 .cta-button {
     background-color: rgb(215, 168, 0);
     color: white;
+    font-size: 1.5em;
     padding: 1vw 2vw;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     margin: 0.4vw 0.2vw;
     cursor: pointer;
     border-radius: 1vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta-button:hover {
@@ -93,10 +96,15 @@ a {
     transition: transform 0.3s ease; /* Glatter Übergang */
 }
 
+.cta-button:hover .feature-icon {
+    transform: scale(1.2) rotate(20deg); /* Vergrößert das Bild um 10% und Drehung um 20%*/
+    transition: transform 0.3s ease; /* Glatter Übergang */
+}
 
 .product-layout {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .left-column {
@@ -118,7 +126,7 @@ a {
 }
 
 .product-features li {
-    padding-left: 2vw; /* Stellt Platz für das Emoji bereit */
+    padding-left: 3vw; /* Stellt Platz für das Emoji bereit */
     position: relative;
     margin-bottom: 1vw;
     font-size: 16px; /* Passen Sie die Schriftgrösse nach Bedarf an */
@@ -152,6 +160,15 @@ a {
     .product-features li {
         font-size: 14px; /* Etwas kleinere Schrift für kleinere Bildschirme */
     }
+
+    .product-layout {
+        flex-direction: column;
+    }
+
+    .product-layout .cta-button {
+        font-size: 1em;
+    }
+
 }
 
 /* Tablet */
@@ -168,6 +185,10 @@ a {
     .testimonial {
         margin: 1vw;
         padding: 2vw;
+    }
+
+    .product-features li {
+        padding-left: 4vw; /* Stellt Platz für das Emoji bereit */
     }
 
 }
