@@ -66,10 +66,14 @@ a {
 .testimonial {
     flex-basis: 45%;
     margin: 1vw auto;
-    border: 1px solid #ddd;
     border-radius: 1vw;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: rgb(215, 168, 0);
+}
+
+.testimonial:hover {
+    transform: scale(1.05); /* 5% größer */
+    transition: transform 0.3s ease; /* Glatter Übergang */
 }
 
 .cta-button {
@@ -83,6 +87,12 @@ a {
     cursor: pointer;
     border-radius: 1vw;
 }
+
+.cta-button:hover {
+    transform: scale(1.05); /* 5% größer */
+    transition: transform 0.3s ease; /* Glatter Übergang */
+}
+
 
 .product-layout {
     display: flex;
