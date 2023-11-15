@@ -35,6 +35,10 @@ footer .footer-title h2 {
     align-items: center;
 }
 
+.footer-section strong {
+    color: #fff;
+}
+
 .footer-section a {
     color: var(--jordy-blue);
 }
