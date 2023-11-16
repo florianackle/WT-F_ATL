@@ -25,6 +25,10 @@ a {
     color: var(--jordy-blue); /* Links besser sichtbar */
 }
 
+h1, h2 {
+    text-shadow: 3px 3px #000000FF;
+}
+
 .sub-section {
     border-top: 0.1rem solid #fff;
     margin: 2vw auto;
@@ -79,7 +83,6 @@ a {
 /* Interaktives Design Zukunftsprojekte */
 .img-box {
     position: relative;
-    /* Weitere Stile für die Bild-Container */
 }
 
 .img-box .overlay-text {
@@ -95,6 +98,11 @@ a {
     justify-content: center;
     opacity: 0; /* Unsichtbar bis zum Hover */
     transition: opacity 0.3s ease; /* Glatter Übergang */
+}
+
+/* Down normal nicht anzeigen */
+.arrow-down {
+    opacity: 0;
 }
 
 .img-box:hover .overlay-text {
@@ -141,6 +149,7 @@ a {
 
 textarea {
     height: 10vw;
+    resize: none;
 }
 
 button[type="submit"] {
@@ -200,4 +209,14 @@ button[type="submit"]:hover {
     .future-img img {
         width: 100%; /* Grösser erlauben (da Bilder nacheinander)*/
     }
+
+    /* Andere Pfeile bei kleiner Bildschirmgrösse */
+    .arrow-down {
+        opacity: 1;
+    }
+
+    .arrow-right {
+        opacity: 0;
+    }
+
 }
