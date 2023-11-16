@@ -14,17 +14,23 @@ main {
     justify-content: center;
 }
 
-.index-banner {
+.index-button {
     position: relative;
     padding: 1vw 2vw;
     background-color: #6449b3;
-    border-radius: 10px;
+    border-radius: 1vw;
     box-shadow: 5px 5px 5px #3c2d70;
     border-color: #222222;
 }
 
-.index-banner a {
+.index-button a {
     color: white;
+}
+
+.index-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #fa07ca;
+    transition: all 0.3s ease 0s;
 }
 
 .start-page {
@@ -47,10 +53,11 @@ main {
 
 .info-box {
     max-width: 80%;
-    margin: 1vw 1vw;
+    min-width: 15rem;
+    margin: 2vw 2vw;
     color: white;
     background-color: #6449b3;
     box-shadow: 5px 5px 5px #3c2d70;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 1vw;
+    padding: 2vw;
 }
