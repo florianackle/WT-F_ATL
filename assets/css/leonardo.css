@@ -1,14 +1,33 @@
-/* Grundlegende Stile, die für Huge gelten */
-
-.main-container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto; /* Zentriert den Container */
-    padding: 20px;
-    background-color: #0000ff;
-    box-sizing: border-box;
+/* Grundlegende Stile */
+:root {
+    background-color: rgb(108, 39, 98);
 }
 
+/* Typen */
+main {
+    max-width: 75%;
+    margin: 6vw auto;
+    padding: 2vw;
+    background: rgb(182, 58, 165);
+    background: linear-gradient(45deg, rgb(80, 21, 71) 0%, rgb(155, 53, 140) 100%);
+    border-radius: 1vw;
+}
+body {
+    line-height: 1.6;
+}
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+
+
+/* Classen */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
 .sub-container {
     display: flex;
     flex-wrap: wrap;
@@ -16,68 +35,247 @@
     border: 1px solid #ddd;
     justify-content: space-between;
 }
-
 .inner-container {
     flex: 1;
     padding: 10px;
     border: 1px solid #aaa;
-    box-sizing: border-box;
     margin: 5px;
-    min-height: 600px; /* Standardhöhe für Huge */
-    min-width: 30%; /* Minimale Breite für die inneren Container */
+    min-height: 600px;
+    min-width: 30%;
 }
-
 .nested-container {
-    width: 100%; /* Nutzt den gesamten verfügbaren Platz in der Breite */
-    box-sizing: border-box; /* Stellt sicher, dass Padding und Border in der Breite enthalten sind */
-    padding: 10px; /* Optional, für etwas Innenabstand */
-    border: 1px solid #ccc; /* Optional, für eine visuelle Trennung */
+    padding: 10px;
 }
 
-#container1 { background-color: #00ff00; }
-#container2 { background-color: #ffff00; }
-#container3 { background-color: #ff0000; }
-#container4 { background-color: #ff00ff; }
-#container5 { background-color: #00ffff; }
 
 
+/* Container 1 */
+#container1 {
+    background-color: #00ff00;
+}
+#container1-1 picture img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#container1-1 picture img {
+    max-width: 100%;
+    height: auto;
+}
+#container1-1, #container1-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Text links ausrichten */
+    justify-content: center; /* In der Höhe zentrieren */
+    text-align: left; /* Text links ausrichten */
+}
+#container1-2 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+}
+#container1-2 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: left;
+}
+#container1-2 .slogan {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+
+/* Container 2 */
+#container2 {
+    background-color: #ffff00;
+}
+#container2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* Container 3 */
+#container3 {
+    background-color: #ff0000;
+}
 #container3-1 .nested-container:first-child,
 #container3-2 .nested-container:first-child,
 #container3-3 .nested-container:first-child {
-    height: 25%; /* Der erste innere Container nimmt 25% der Höhe ein */
+    height: 25%;
 }
-
 #container3-1 .nested-container:last-child,
 #container3-2 .nested-container:last-child,
 #container3-3 .nested-container:last-child {
-    height: 75%; /* Der zweite innere Container nimmt 75% der Höhe ein */
+    height: 75%;
 }
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.image-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#container3-1b, #container3-2b, #container3-3b {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* Container 4 */
+#container4 {
+    background-color: #ff00ff;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.phone-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.phone-input select {
+    flex: 0 0 90px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.phone-input input[type="tel"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#message {
+    height: 150px;
+    resize: none;
+    overflow: auto;
+}
+.form-group.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-group.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+#submit-button {
+    background-color: #aaa;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#submit-button:enabled {
+    background-color: #4CAF50;
+}
+
+
+
+/* Container 5 */
+#container5 {
+    background-color: #00ffff;
+}
+#container5-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 20px;
+}
+#container5-1 .content {
+    max-width: 600px;
+}
+#container5-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 /* Media Queries */
-
-/* Desktop */
 @media only screen and (max-width: 1289px) {
     .inner-container {
-        /* Anpassungen für Desktop */
-        min-height: calc(600px * 0.77); /* 77% von 600px */
-        min-width: auto; /* Setzt die minimale Breite zurück */
+        min-height: calc(600px * 0.77);
     }
 }
-
-/* Tablet */
 @media only screen and (max-width: 991px) {
+
+
     .inner-container {
-        /* Anpassungen für Tablet */
-        min-height: calc(600px * 0.60); /* 60% von 600px */
-        flex-basis: 100%; /* Jeder innere Container nimmt die volle Breite ein */
+        min-height: calc(600px * 0.60);
+        flex-basis: 100%;
     }
 }
-
-/* Mobil */
 @media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
     .inner-container {
-        /* Anpassungen für Mobilgeräte */
-        min-height: calc(600px * 0.37); /* 37% von 600px */
-        margin-bottom: 10px; /* Etwas Abstand nach unten für bessere Lesbarkeit */
+        min-height: calc(600px * 0.37);
+        margin-bottom: 10px;
     }
 }
