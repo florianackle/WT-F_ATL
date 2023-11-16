@@ -97,7 +97,7 @@ a {
 }
 
 .cta-button:hover .feature-icon {
-    transform: scale(1.2) rotate(20deg); /* Vergrössert das Bild um 10% und Drehung um 20%*/
+    transform: scale(1.2) rotate(20deg); /* Vergrössert das Bild um 20% und Drehung um 20%*/
     transition: transform 0.3s ease; /* Glatter Übergang */
 }
 
