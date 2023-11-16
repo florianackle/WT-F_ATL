@@ -182,15 +182,27 @@ img {
 /* Media Queries für Smartphone-Grössen (Bildschirmbreite bis 480px) */
 @media only screen and (max-width: 480px) {
 
-    /*.abschnitt1 {
-        display: none;
-        margin-top: 20%;
+    .abschnitt1 {
+        display: flex;
+        flex-direction: column;
     }
 
-
     .abschnitt2 {
-        display: none;
-        margin-top: 50%;
-    }*/
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .content-text, .content-image {
+        flex-basis: 100%;
+    }
 
 }

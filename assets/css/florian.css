@@ -18,10 +18,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.6;
 }
 
 a {
     color: var(--jordy-blue); /* Links besser sichtbar */
+}
+
+h1, h2 {
+    text-shadow: 3px 3px #000000FF;
 }
 
 .sub-section {
@@ -78,7 +83,6 @@ a {
 /* Interaktives Design Zukunftsprojekte */
 .img-box {
     position: relative;
-    /* Weitere Stile für die Bild-Container */
 }
 
 .img-box .overlay-text {
@@ -96,6 +100,11 @@ a {
     transition: opacity 0.3s ease; /* Glatter Übergang */
 }
 
+/* Down normal nicht anzeigen */
+.arrow-down {
+    opacity: 0;
+}
+
 .img-box:hover .overlay-text {
     opacity: 1; /* Sichtbar beim Hover */
 }
@@ -105,6 +114,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Styling vom Kontaktformular */
@@ -138,6 +149,7 @@ a {
 
 textarea {
     height: 10vw;
+    resize: none;
 }
 
 button[type="submit"] {
@@ -197,4 +209,14 @@ button[type="submit"]:hover {
     .future-img img {
         width: 100%; /* Grösser erlauben (da Bilder nacheinander)*/
     }
+
+    /* Andere Pfeile bei kleiner Bildschirmgrösse */
+    .arrow-down {
+        opacity: 1;
+    }
+
+    .arrow-right {
+        opacity: 0;
+    }
+
 }
