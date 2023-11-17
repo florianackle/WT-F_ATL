@@ -238,7 +238,7 @@ button[type="submit"]:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(82, 17, 66);
-    padding: 15vw;
+    padding: 5vw;
     border-radius: 1vw;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     z-index: 1000; /* Sicherstellen, dass es über anderen Inhalten liegt */
