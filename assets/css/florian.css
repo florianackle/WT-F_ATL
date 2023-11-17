@@ -80,8 +80,8 @@ h1, h2 {
 /* Interaktives Design Zukunftsprojekte */
 .img-box {
     position: relative;
+    display: flex;
 }
-
 
 .img-box .overlay-text {
     position: absolute;
