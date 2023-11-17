@@ -213,4 +213,43 @@ button[type="submit"]:hover {
         opacity: 0;
     }
 
+    /* EasterEgg ausblenden mobile */
+    #easter-egg {
+        display: none;
+    }
+
+}
+
+/**********************************************/
+/* Easter Egg :-) */
+#easter-egg {
+    position: absolute;
+    top: 5vw;
+    right: 1vw;
+    width: 3vw;
+    height: auto;
+    cursor: pointer;
+}
+
+#easter-egg-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(82, 17, 66);
+    padding: 15vw;
+    border-radius: 1vw;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Sicherstellen, dass es über anderen Inhalten liegt */
+}
+
+#easter-egg-button {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 2vw 3vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
 }

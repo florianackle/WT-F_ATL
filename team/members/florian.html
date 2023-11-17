@@ -11,6 +11,12 @@
     <link href="../../assets/css/florian.css" rel="stylesheet">
 </head>
 <body>
+<img alt="Easter Egg" id="easter-egg" onclick="showEasterEggPopup()" src="../../assets/img/easteregg.png">
+<div id="easter-egg-popup">
+    <p>Du hast das Easter Egg gefunden!</p>
+    <button id="easter-egg-button" onclick="document.getElementById('easter-egg-popup').style.display='none'">OK, cool
+    </button>
+</div>
 <header>
 
     <!--
@@ -56,7 +62,7 @@
     <div class="main-container">
         <div class="intro">
             <h1>Wer bin ich?</h1>
-            <h3>Hallo ich bin Florian - Mitgründer von Chicken-West for Chicken-Breast</h3>
+            <h3>Hallo ich bin Florian - Mitgründer von Chicken-Vest for Chicken-Breast</h3>
         </div>
         <div class="sub-section content-row about-section">
             <div class="section-img">
@@ -159,7 +165,7 @@
                 <p>about</p>
             </div>
             <strong>Wenden Sie sich an unsere Infostelle</strong>
-            <a href="mailto:chicken-west@chicken-breast.ch">chicken-info@chicken-breast.ch</a>
+            <a href="mailto:chicken-vest@chicken-breast.ch">chicken-info@chicken-breast.ch</a>
         </div>
         <div class="footer-section">
             <div class="section-title">
@@ -181,5 +187,11 @@
         </div>
     </div>
 </footer>
+<script>
+    <!-- JS für onclick von Easter Egg -->
+    function showEasterEggPopup() {
+        document.getElementById('easter-egg-popup').style.display = 'block';
+    }
+</script>
 </body>
 </html>
