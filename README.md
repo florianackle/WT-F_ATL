@@ -4,7 +4,7 @@ school project of Florian Ackle, Urs Georgi, Leonardo Prpic
 
 # :bookmark: version
 
-v0.4 (check release-notes)
+v1.0 (check release-notes)
 
 # :construction_worker: starting point
 
@@ -13,12 +13,12 @@ product and create the company website.
 
 # :wrench: under construction
 
-The project is currently being worked on diligently.
+The project is no longer being actively developed.
 The selected product are luminous vests for chickens. :chicken:
 
 # :art: design
 
-The design is constantly being improved.
+The design will not be improved any further.
 Design changes were adapted in the own CSS.
 
 The CSS files have been divided into functions where possible (e.g. navigation.css for the navigation bar or
@@ -32,7 +32,8 @@ No special functions have been implemented yet.
 
 # :bug: bug-free
 
-The program is bug free. Only fully working versions are "committed". Hopefully :see_no_evil:
+The program is bug free. Hopefully :see_no_evil:
+Some bug :bug: fixes were necessary during the project
 
 # :package: used packages
 
@@ -47,6 +48,6 @@ Otherwise... leave the fingers :point_left: of it.
 
 # :date: Last Update
 
-> 15.11.2023
+> 17.11.2023
 
 # :rocket: Have fun!
