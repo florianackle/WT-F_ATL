@@ -24,9 +24,10 @@ main {
 }
 
 .index-button a {
-    color: white;
+    color: white; /* Link weiss */
 }
 
+/* Button style on Hover */
 .index-button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px #fa07ca;

@@ -14,9 +14,6 @@ main {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
 }
@@ -30,14 +27,10 @@ h1, h2 {
 }
 
 .sub-section {
-    border-top: 0.1rem solid #fff;
+    border-top: 0.1rem solid #fff; /* Trennlinie */
     margin: 2vw auto;
 }
 
-.section-img img {
-    max-width: 100%;
-    height: auto;
-}
 
 .contact-text {
     max-width: 40%;
@@ -51,6 +44,10 @@ h1, h2 {
     align-items: center; /* Vertikales Zentrieren */
 }
 
+.section-img img {
+    max-width: 100%;
+    height: auto;
+}
 
 .section-img, .about-text {
     flex: 1;
@@ -84,6 +81,7 @@ h1, h2 {
 .img-box {
     position: relative;
 }
+
 
 .img-box .overlay-text {
     position: absolute;
@@ -167,14 +165,10 @@ button[type="submit"]:hover {
 
 
 /* Responsive Design */
-/* Desktop */
-@media only screen and (max-width: 1289px) {
-    /* Anpassungen für Desktop-Ansichten */
-}
-
 /* Tablet */
 @media only screen and (max-width: 991px) {
     /* Anpassungen für Tablet-Ansichten */
+    /* Für künftige Anpassungen :) */
 }
 
 /* Mobil */

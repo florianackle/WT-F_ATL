@@ -1,3 +1,4 @@
+/* Farb-Variabeln */
 :root {
     --rich-black: #171a21ff;
     --paynes-gray: #617073ff;
@@ -5,9 +6,10 @@
     --jordy-blue: #78b3f8;
     --periwinkle: #afb3f7ff;
 
-    background-color: var(--paynes-gray);
+    background-color: var(--paynes-gray); /* Eigentlich deprecated - wird meist überschrieben :) */
 }
 
+/* Default Einstellungen */
 html body {
     color: #fff;
     text-align: center;
@@ -21,6 +23,7 @@ html {
 !important;
 }
 
+/* Platz machen für Nav und angemessener Abstand */
 main {
     margin-top: 6vw;
 }
